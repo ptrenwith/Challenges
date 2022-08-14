@@ -1,0 +1,3 @@
+Challenges/Sorting/MergeSort/bin/*
+*.nuget*
+Challenges/Sorting/MergeSort/obj/*
