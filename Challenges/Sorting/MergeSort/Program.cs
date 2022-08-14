@@ -69,7 +69,7 @@ class Result
             else
             {
                 arr[k++] = tempRight[j++];
-                counter += tempLeft.Length - i;
+                counter += tempLeft.Length - i ;
             }
         }
         while (i < tempLeft.Length)
@@ -98,7 +98,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        List<int> arr = new List<int> { 2, 1, 3, 1, 2 };
+        List<int> arr = new List<int> { 7, 5, 3, 1 };
         long result = Result.countInversions(arr);
 
         arr = new List<int> { 9, 7, 5, 3, 1 };
